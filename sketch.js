@@ -11,7 +11,7 @@
    }
    
    function setup(){
-     createCanvas(displayWidth,displayHeight)
+     createCanvas(displayWidth,displayHeight-100)
     space = createSprite(width, height);
     space.addImage(spaceImage);  
     space.scale=5
