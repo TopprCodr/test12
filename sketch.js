@@ -11,13 +11,13 @@
    }
    
    function setup(){
-     createCanvas(displayWidth,displayHeight-100)
+     createCanvas(displayWidth,displayHeight)
     space = createSprite(width, height);
     space.addImage(spaceImage);  
     space.scale=5
     space.y = space.height/2;
     
-    player = createSprite(width/2, height-100);
+    player = createSprite(width/2, height-50);
     player.addImage(spaceshipImage);
     //player.scale= 0.5;
 
